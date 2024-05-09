@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #ffee00;
+}
 header {
     width: 100%;
     height: 8rem;
@@ -69,4 +71,29 @@ select{
     cursor: pointer; 
     border-radius: 10px; 
     border: 2px solid rgb(255, 124, 37);
+}
+
+.images>img{
+    height: 0.9rem;
+    width: 0.9rem;
+    align-items: start;
+}
+
+hr{
+    background-color: azure;
+    height: 3px;
+}
+
+.Ciudad>img{ 
+    width: 5rem;
+    height: 10rem;
+    margin-top: 2rem;
+    display: flex;
+}
+.Ciudad>h2{
+    background-color: aliceblue;
+    width: 5rem;
+    height: 10rem;
+    margin-top: 2rem;
+    display: flex;
 }
